@@ -4,7 +4,7 @@ Keymaps cheat sheet
 ```
 <leader> = spacebar
 
-undootree
+undotree
 <leader>u -> toggle
 
 telescope
@@ -47,5 +47,5 @@ Flutter tools
 :Telescope flutter commands -> show all commands
 
 :FlutterOutlineOpen -> open outline with options for flutter
-	a -> 
+	a -> open options for widgets
 ```
