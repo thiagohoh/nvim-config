@@ -1,0 +1,24 @@
+set showmode
+set guicursor =" "
+set nu
+set relativenumber
+set tabstop = 4
+set softtabstop = 4
+set shiftwidth = 4
+set expandtab
+set hlsearch = false
+set ignorecase
+set showcmd
+set incsearch
+set scrolloff = 8
+let mapleader=" "
+set NERDTree
+map <c-t>   :NERDTree<CR>
+map <leader>n ::NERDTreeToggle<CR>
+
+nnoremap [[ :action MethodUp<CR>
+nnoremap ]] :action MethodDown<CR>
+nnoremap <leader>c :action CommentByLineComment<CR>
+nnoremap <leader>= :action ReformatCode<CR>
+nnoremap <leader>u :action FindUsages<CR>
+vnoremap <leader>= :action ReformatCode<CR>
